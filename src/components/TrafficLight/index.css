@@ -1,0 +1,135 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.ped-pole{
+    background-image: url("https://res.cloudinary.com/dcbul0ogm/image/upload/v1726564518/black-and-yellow-hazard-stripes-background-industrial-wallpaper-lines-and-diagonal-texture-police-line-or-danger-tapes-illustration-sign-symbol-and-icon-caution-or-constuction-concept-free-vector_c1qxof.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.ped-btn{
+    background-color: black;
+    padding: 10px;
+    border: 3px solid #fcd027;
+    font-size: 18px;
+    color: #fcd027;
+    transition: ease-in-out 0.3s;
+}
+
+.ped-btn:hover{
+    background-color: #fcd027;
+    padding: 10px;
+    border: 3px solid black;
+    font-size: 18px;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+
+.light-pole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lights{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: #273e3f;
+    height: 200px;
+    width: 60px;
+   padding: 10px;
+   border-radius: 30px 30px 0px 0px;
+}
+.light-item1{
+    background-color: rgb(79, 85, 79);
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.down-pole{
+    height: 150px;
+    width: 30px;
+    background-color: black;
+    
+}
+
+.total{
+    width: 100%;
+}
+
+.traffic-light {
+    --size: 50px;
+    background-color: #a57979;
+    border-radius: var(--size);
+    height: var(--size);
+    width: var(--size);
+  }
+
+  .zebra-img{
+   visibility: hidden;
+  }
+
+
+
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    transition:  ease-in-out 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition: ease-in-out 0.3s;
+  }

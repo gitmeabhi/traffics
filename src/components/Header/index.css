@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+    padding: 10px 30px;
+    border-bottom: 1px solid #e5dcbe;
+    box-shadow: 0px 0px 4px -2px;
+   
+}
+.logo{
+    color: #46443d;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-items{
+    color: #46443d;
+    
+   
+    text-decoration: none;
+}
+.nav-item{
+    font-size: 19px;
+    font-weight: 600;
+    
+}
